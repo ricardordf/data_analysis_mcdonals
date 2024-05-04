@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="naivebayesDataModel">
+    <entry key="ClassColumnName" type="xstring" value="Zona"/>
+    <config key="ClassColumnType">
+        <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        <entry key="is_null" type="xboolean" value="false"/>
+    </config>
+    <entry key="skipMissingVals" type="xboolean" value="false"/>
+    <entry key="Threshold" type="xdouble" value="1.0E-4"/>
+    <config key="SkippedAttributes">
+        <entry key="SkippedAttributesCounter" type="xint" value="0"/>
+    </config>
+    <config key="AttributeModelSection">
+        <entry key="AttributeModelCounter" type="xint" value="11"/>
+        <config key="AttributeModelData_0">
+            <entry key="attributeName" type="xstring" value="Zona"/>
+            <entry key="type" type="xstring" value="ClassModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="totalNoOfRecords" type="xlong" value="19672"/>
+                <entry key="maxNoOfClassValues" type="xlong" value="20"/>
+                <config key="classValues">
+                    <entry key="array-size" type="xint" value="6"/>
+                    <entry key="0" type="xstring" value="CENTRO"/>
+                    <entry key="1" type="xstring" value="KIOSKO"/>
+                    <entry key="2" type="xstring" value="MESAS"/>
+                    <entry key="3" type="xstring" value="TERRAZA"/>
+                    <entry key="4" type="xstring" value="VENTANA INTERIOR"/>
+                    <entry key="5" type="xstring" value="VENTANA PUERTA"/>
+                </config>
+                <config key="classRecordCounter">
+                    <entry key="array-size" type="xint" value="6"/>
+                    <entry key="0" type="xlong" value="2105"/>
+                    <entry key="1" type="xlong" value="3145"/>
+                    <entry key="2" type="xlong" value="4571"/>
+                    <entry key="3" type="xlong" value="3232"/>
+                    <entry key="4" type="xlong" value="3378"/>
+                    <entry key="5" type="xlong" value="3241"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_1">
+            <entry key="attributeName" type="xstring" value="TOKEN"/>
+            <entry key="type" type="xstring" value="NominalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="maxNoOfAttrs" type="xlong" value="20"/>
+                <entry key="noOfClasses" type="xlong" value="6"/>
+                <config key="attributeValues">
+                    <entry key="array-size" type="xint" value="10"/>
+                    <entry key="0" type="xstring" value="1"/>
+                    <entry key="1" type="xstring" value="10"/>
+                    <entry key="2" type="xstring" value="2"/>
+                    <entry key="3" type="xstring" value="3"/>
+                    <entry key="4" type="xstring" value="4"/>
+                    <entry key="5" type="xstring" value="5"/>
+                    <entry key="6" type="xstring" value="6"/>
+                    <entry key="7" type="xstring" value="7"/>
+                    <entry key="8" type="xstring" value="8"/>
+                    <entry key="9" type="xstring" value="9"/>
+                </config>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="CENTRO"/>
+                    <entry key="noOfRows" type="xlong" value="2105"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="10"/>
+                        <entry key="0" type="xstring" value="1"/>
+                        <entry key="1" type="xstring" value="2"/>
+                        <entry key="2" type="xstring" value="3"/>
+                        <entry key="3" type="xstring" value="4"/>
+                        <entry key="4" type="xstring" value="5"/>
+                        <entry key="5" type="xstring" value="6"/>
+                        <entry key="6" type="xstring" value="7"/>
+                        <entry key="7" type="xstring" value="8"/>
+                        <entry key="8" type="xstring" value="9"/>
+                        <entry key="9" type="xstring" value="10"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="10"/>
+                        <entry key="0" type="xlong" value="213"/>
+                        <entry key="1" type="xlong" value="223"/>
+                        <entry key="2" type="xlong" value="209"/>
+                        <entry key="3" type="xlong" value="204"/>
+                        <entry key="4" type="xlong" value="207"/>
+                        <entry key="5" type="xlong" value="220"/>
+                        <entry key="6" type="xlong" value="202"/>
+                        <entry key="7" type="xlong" value="206"/>
+                        <entry key="8" type="xlong" value="213"/>
+                        <entry key="9" type="xlong" value="208"/>
+                    </config>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="KIOSKO"/>
+                    <entry key="noOfRows" type="xlong" value="3145"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="10"/>
+                        <entry key="0" type="xstring" value="1"/>
+                        <entry key="1" type="xstring" value="2"/>
+                        <entry key="2" type="xstring" value="3"/>
+                        <entry key="3" type="xstring" value="4"/>
+                        <entry key="4" type="xstring" value="5"/>
+                        <entry key="5" type="xstring" value="6"/>
+                        <entry key="6" type="xstring" value="7"/>
+                        <entry key="7" type="xstring" value="8"/>
+                        <entry key="8" type="xstring" value="9"/>
+                        <entry key="9" type="xstring" value="10"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="10"/>
+                        <entry key="0" type="xlong" value="313"/>
+                        <entry key="1" type="xlong" value="318"/>
+                        <entry key="2" type="xlong" value="321"/>
+                        <entry key="3" type="xlong" value="305"/>
+                        <entry key="4" type="xlong" value="308"/>
+                        <entry key="5" type="xlong" value="317"/>
+                        <entry key="6" type="xlong" value="310"/>
+                        <entry key="7" type="xlong" value="312"/>
+                        <entry key="8" type="xlong" value="324"/>
+                        <entry key="9" type="xlong" value="317"/>
+                    </config>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="MESAS"/>
+                    <entry key="noOfRows" type="xlong" value="4571"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="10"/>
+                        <entry key="0" type="xstring" value="1"/>
+                        <entry key="1" type="xstring" value="2"/>
+                        <entry key="2" type="xstring" value="3"/>
+                        <entry key="3" type="xstring" value="4"/>
+                        <entry key="4" type="xstring" value="5"/>
+                        <entry key="5" type="xstring" value="6"/>
+                        <entry key="6" type="xstring" value="7"/>
+                        <entry key="7" type="xstring" value="8"/>
+                        <entry key="8" type="xstring" value="9"/>
+                        <entry key="9" type="xstring" value="10"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="10"/>
+                        <entry key="0" type="xlong" value="455"/>
+                        <entry key="1" type="xlong" value="456"/>
+                        <entry key="2" type="xlong" value="432"/>
+                        <entry key="3" type="xlong" value="455"/>
+                        <entry key="4" type="xlong" value="474"/>
+                        <entry key="5" type="xlong" value="450"/>
+                        <entry key="6" type="xlong" value="463"/>
+                        <entry key="7" type="xlong" value="458"/>
+                        <entry key="8" type="xlong" value="464"/>
+                        <entry key="9" type="xlong" value="464"/>
+                    </config>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="TERRAZA"/>
+                    <entry key="noOfRows" type="xlong" value="3232"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="10"/>
+                        <entry key="0" type="xstring" value="1"/>
+                        <entry key="1" type="xstring" value="2"/>
+                        <entry key="2" type="xstring" value="3"/>
+                        <entry key="3" type="xstring" value="4"/>
+                        <entry key="4" type="xstring" value="5"/>
+                        <entry key="5" type="xstring" value="6"/>
+                        <entry key="6" type="xstring" value="7"/>
+                        <entry key="7" type="xstring" value="8"/>
+                        <entry key="8" type="xstring" value="9"/>
+                        <entry key="9" type="xstring" value="10"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="10"/>
+                        <entry key="0" type="xlong" value="328"/>
+                        <entry key="1" type="xlong" value="338"/>
+                        <entry key="2" type="xlong" value="333"/>
+                        <entry key="3" type="xlong" value="310"/>
+                        <entry key="4" type="xlong" value="320"/>
+                        <entry key="5" type="xlong" value="322"/>
+                        <entry key="6" type="xlong" value="340"/>
+                        <entry key="7" type="xlong" value="327"/>
+                        <entry key="8" type="xlong" value="312"/>
+                        <entry key="9" type="xlong" value="302"/>
+                    </config>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="VENTANA INTERIOR"/>
+                    <entry key="noOfRows" type="xlong" value="3378"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="10"/>
+                        <entry key="0" type="xstring" value="1"/>
+                        <entry key="1" type="xstring" value="2"/>
+                        <entry key="2" type="xstring" value="3"/>
+                        <entry key="3" type="xstring" value="4"/>
+                        <entry key="4" type="xstring" value="5"/>
+                        <entry key="5" type="xstring" value="6"/>
+                        <entry key="6" type="xstring" value="7"/>
+                        <entry key="7" type="xstring" value="8"/>
+                        <entry key="8" type="xstring" value="9"/>
+                        <entry key="9" type="xstring" value="10"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="10"/>
+                        <entry key="0" type="xlong" value="328"/>
+                        <entry key="1" type="xlong" value="337"/>
+                        <entry key="2" type="xlong" value="335"/>
+                        <entry key="3" type="xlong" value="327"/>
+                        <entry key="4" type="xlong" value="355"/>
+                        <entry key="5" type="xlong" value="341"/>
+                        <entry key="6" type="xlong" value="344"/>
+                        <entry key="7" type="xlong" value="328"/>
+                        <entry key="8" type="xlong" value="338"/>
+                        <entry key="9" type="xlong" value="345"/>
+                    </config>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="VENTANA PUERTA"/>
+                    <entry key="noOfRows" type="xlong" value="3241"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="10"/>
+                        <entry key="0" type="xstring" value="1"/>
+                        <entry key="1" type="xstring" value="2"/>
+                        <entry key="2" type="xstring" value="3"/>
+                        <entry key="3" type="xstring" value="4"/>
+                        <entry key="4" type="xstring" value="5"/>
+                        <entry key="5" type="xstring" value="6"/>
+                        <entry key="6" type="xstring" value="7"/>
+                        <entry key="7" type="xstring" value="8"/>
+                        <entry key="8" type="xstring" value="9"/>
+                        <entry key="9" type="xstring" value="10"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="10"/>
+                        <entry key="0" type="xlong" value="341"/>
+                        <entry key="1" type="xlong" value="316"/>
+                        <entry key="2" type="xlong" value="321"/>
+                        <entry key="3" type="xlong" value="312"/>
+                        <entry key="4" type="xlong" value="346"/>
+                        <entry key="5" type="xlong" value="310"/>
+                        <entry key="6" type="xlong" value="306"/>
+                        <entry key="7" type="xlong" value="316"/>
+                        <entry key="8" type="xlong" value="332"/>
+                        <entry key="9" type="xlong" value="341"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_2">
+            <entry key="attributeName" type="xstring" value="B827EB1741B5-0+Mean(Media_Movil)"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="906"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="6"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="CENTRO"/>
+                    <entry key="MissingValCounter" type="xlong" value="76"/>
+                    <entry key="noOfRows" type="xlong" value="2105"/>
+                    <entry key="mean" type="xdouble" value="-79.15179891572213"/>
+                    <entry key="sd" type="xdouble" value="3.8732930918946415"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="MESAS"/>
+                    <entry key="MissingValCounter" type="xlong" value="500"/>
+                    <entry key="noOfRows" type="xlong" value="4571"/>
+                    <entry key="mean" type="xdouble" value="-84.43578973225249"/>
+                    <entry key="sd" type="xdouble" value="2.7085493654108572"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="VENTANA PUERTA"/>
+                    <entry key="MissingValCounter" type="xlong" value="76"/>
+                    <entry key="noOfRows" type="xlong" value="3241"/>
+                    <entry key="mean" type="xdouble" value="-62.39693522906797"/>
+                    <entry key="sd" type="xdouble" value="11.858988710416826"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="KIOSKO"/>
+                    <entry key="MissingValCounter" type="xlong" value="108"/>
+                    <entry key="noOfRows" type="xlong" value="3145"/>
+                    <entry key="mean" type="xdouble" value="-81.12946987158396"/>
+                    <entry key="sd" type="xdouble" value="2.6223746170055264"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="TERRAZA"/>
+                    <entry key="MissingValCounter" type="xlong" value="71"/>
+                    <entry key="noOfRows" type="xlong" value="3232"/>
+                    <entry key="mean" type="xdouble" value="-72.10196140461883"/>
+                    <entry key="sd" type="xdouble" value="6.269762372076595"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="VENTANA INTERIOR"/>
+                    <entry key="MissingValCounter" type="xlong" value="75"/>
+                    <entry key="noOfRows" type="xlong" value="3378"/>
+                    <entry key="mean" type="xdouble" value="-72.1277929155313"/>
+                    <entry key="sd" type="xdouble" value="6.34929968453657"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_3">
+            <entry key="attributeName" type="xstring" value="B827EB1741B5-1+Mean(Media_Movil)"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="542"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="6"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="CENTRO"/>
+                    <entry key="MissingValCounter" type="xlong" value="56"/>
+                    <entry key="noOfRows" type="xlong" value="2105"/>
+                    <entry key="mean" type="xdouble" value="-72.8928257686676"/>
+                    <entry key="sd" type="xdouble" value="4.781397288315483"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="MESAS"/>
+                    <entry key="MissingValCounter" type="xlong" value="194"/>
+                    <entry key="noOfRows" type="xlong" value="4571"/>
+                    <entry key="mean" type="xdouble" value="-79.2752798720587"/>
+                    <entry key="sd" type="xdouble" value="2.9287519601988445"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="VENTANA PUERTA"/>
+                    <entry key="MissingValCounter" type="xlong" value="79"/>
+                    <entry key="noOfRows" type="xlong" value="3241"/>
+                    <entry key="mean" type="xdouble" value="-71.21922833649589"/>
+                    <entry key="sd" type="xdouble" value="5.501367087787445"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="KIOSKO"/>
+                    <entry key="MissingValCounter" type="xlong" value="89"/>
+                    <entry key="noOfRows" type="xlong" value="3145"/>
+                    <entry key="mean" type="xdouble" value="-77.19754581151845"/>
+                    <entry key="sd" type="xdouble" value="3.498379872564113"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="TERRAZA"/>
+                    <entry key="MissingValCounter" type="xlong" value="64"/>
+                    <entry key="noOfRows" type="xlong" value="3232"/>
+                    <entry key="mean" type="xdouble" value="-72.39835858585866"/>
+                    <entry key="sd" type="xdouble" value="5.654536517008352"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="VENTANA INTERIOR"/>
+                    <entry key="MissingValCounter" type="xlong" value="60"/>
+                    <entry key="noOfRows" type="xlong" value="3378"/>
+                    <entry key="mean" type="xdouble" value="-62.19237492465338"/>
+                    <entry key="sd" type="xdouble" value="11.015369221464859"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_4">
+            <entry key="attributeName" type="xstring" value="B827EB1741B5-2+Mean(Media_Movil)"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="1613"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="6"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="CENTRO"/>
+                    <entry key="MissingValCounter" type="xlong" value="92"/>
+                    <entry key="noOfRows" type="xlong" value="2105"/>
+                    <entry key="mean" type="xdouble" value="-81.95131644311994"/>
+                    <entry key="sd" type="xdouble" value="3.8064380569796854"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="MESAS"/>
+                    <entry key="MissingValCounter" type="xlong" value="847"/>
+                    <entry key="noOfRows" type="xlong" value="4571"/>
+                    <entry key="mean" type="xdouble" value="-88.11044575725029"/>
+                    <entry key="sd" type="xdouble" value="1.9556528161099966"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="VENTANA PUERTA"/>
+                    <entry key="MissingValCounter" type="xlong" value="164"/>
+                    <entry key="noOfRows" type="xlong" value="3241"/>
+                    <entry key="mean" type="xdouble" value="-81.8364640883977"/>
+                    <entry key="sd" type="xdouble" value="3.874785481258804"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="KIOSKO"/>
+                    <entry key="MissingValCounter" type="xlong" value="300"/>
+                    <entry key="noOfRows" type="xlong" value="3145"/>
+                    <entry key="mean" type="xdouble" value="-84.9765202108963"/>
+                    <entry key="sd" type="xdouble" value="2.9725994078977234"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="TERRAZA"/>
+                    <entry key="MissingValCounter" type="xlong" value="140"/>
+                    <entry key="noOfRows" type="xlong" value="3232"/>
+                    <entry key="mean" type="xdouble" value="-82.49440491591201"/>
+                    <entry key="sd" type="xdouble" value="3.3643588950712524"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="VENTANA INTERIOR"/>
+                    <entry key="MissingValCounter" type="xlong" value="70"/>
+                    <entry key="noOfRows" type="xlong" value="3378"/>
+                    <entry key="mean" type="xdouble" value="-68.51834945586457"/>
+                    <entry key="sd" type="xdouble" value="9.768844476364427"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_5">
+            <entry key="attributeName" type="xstring" value="B827EB53A67E-0+Mean(Media_Movil)"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="803"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="6"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="CENTRO"/>
+                    <entry key="MissingValCounter" type="xlong" value="60"/>
+                    <entry key="noOfRows" type="xlong" value="2105"/>
+                    <entry key="mean" type="xdouble" value="-73.86234718826408"/>
+                    <entry key="sd" type="xdouble" value="4.4443911712759006"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="MESAS"/>
+                    <entry key="MissingValCounter" type="xlong" value="391"/>
+                    <entry key="noOfRows" type="xlong" value="4571"/>
+                    <entry key="mean" type="xdouble" value="-82.07882775119647"/>
+                    <entry key="sd" type="xdouble" value="2.471776860101021"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="VENTANA PUERTA"/>
+                    <entry key="MissingValCounter" type="xlong" value="68"/>
+                    <entry key="noOfRows" type="xlong" value="3241"/>
+                    <entry key="mean" type="xdouble" value="-69.67340056728663"/>
+                    <entry key="sd" type="xdouble" value="7.162050027413303"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="KIOSKO"/>
+                    <entry key="MissingValCounter" type="xlong" value="156"/>
+                    <entry key="noOfRows" type="xlong" value="3145"/>
+                    <entry key="mean" type="xdouble" value="-78.07627969220457"/>
+                    <entry key="sd" type="xdouble" value="2.9339281656710305"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="TERRAZA"/>
+                    <entry key="MissingValCounter" type="xlong" value="65"/>
+                    <entry key="noOfRows" type="xlong" value="3232"/>
+                    <entry key="mean" type="xdouble" value="-69.3967792863908"/>
+                    <entry key="sd" type="xdouble" value="6.283417475399632"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="VENTANA INTERIOR"/>
+                    <entry key="MissingValCounter" type="xlong" value="63"/>
+                    <entry key="noOfRows" type="xlong" value="3378"/>
+                    <entry key="mean" type="xdouble" value="-70.47689291101068"/>
+                    <entry key="sd" type="xdouble" value="5.036883573866655"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_6">
+            <entry key="attributeName" type="xstring" value="B827EB53A67E-1+Mean(Media_Movil)"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="464"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="6"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="CENTRO"/>
+                    <entry key="MissingValCounter" type="xlong" value="35"/>
+                    <entry key="noOfRows" type="xlong" value="2105"/>
+                    <entry key="mean" type="xdouble" value="-69.6405797101449"/>
+                    <entry key="sd" type="xdouble" value="3.2485749044444674"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="MESAS"/>
+                    <entry key="MissingValCounter" type="xlong" value="147"/>
+                    <entry key="noOfRows" type="xlong" value="4571"/>
+                    <entry key="mean" type="xdouble" value="-75.45033905967443"/>
+                    <entry key="sd" type="xdouble" value="3.1272304539838904"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="VENTANA PUERTA"/>
+                    <entry key="MissingValCounter" type="xlong" value="41"/>
+                    <entry key="noOfRows" type="xlong" value="3241"/>
+                    <entry key="mean" type="xdouble" value="-62.6753437500001"/>
+                    <entry key="sd" type="xdouble" value="7.551285621841526"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="KIOSKO"/>
+                    <entry key="MissingValCounter" type="xlong" value="145"/>
+                    <entry key="noOfRows" type="xlong" value="3145"/>
+                    <entry key="mean" type="xdouble" value="-71.89763333333346"/>
+                    <entry key="sd" type="xdouble" value="3.4401418465227787"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="TERRAZA"/>
+                    <entry key="MissingValCounter" type="xlong" value="52"/>
+                    <entry key="noOfRows" type="xlong" value="3232"/>
+                    <entry key="mean" type="xdouble" value="-67.01323899371073"/>
+                    <entry key="sd" type="xdouble" value="5.932536011597205"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="VENTANA INTERIOR"/>
+                    <entry key="MissingValCounter" type="xlong" value="44"/>
+                    <entry key="noOfRows" type="xlong" value="3378"/>
+                    <entry key="mean" type="xdouble" value="-61.74280143971223"/>
+                    <entry key="sd" type="xdouble" value="7.463870417318831"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_7">
+            <entry key="attributeName" type="xstring" value="B827EB7BD4BF-0+Mean(Media_Movil)"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="546"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="6"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="CENTRO"/>
+                    <entry key="MissingValCounter" type="xlong" value="65"/>
+                    <entry key="noOfRows" type="xlong" value="2105"/>
+                    <entry key="mean" type="xdouble" value="-68.18147058823524"/>
+                    <entry key="sd" type="xdouble" value="3.1148585978291843"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="MESAS"/>
+                    <entry key="MissingValCounter" type="xlong" value="159"/>
+                    <entry key="noOfRows" type="xlong" value="4571"/>
+                    <entry key="mean" type="xdouble" value="-66.36616047144142"/>
+                    <entry key="sd" type="xdouble" value="4.138533329329918"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="VENTANA PUERTA"/>
+                    <entry key="MissingValCounter" type="xlong" value="59"/>
+                    <entry key="noOfRows" type="xlong" value="3241"/>
+                    <entry key="mean" type="xdouble" value="-69.40009428032677"/>
+                    <entry key="sd" type="xdouble" value="3.353873265694096"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="KIOSKO"/>
+                    <entry key="MissingValCounter" type="xlong" value="123"/>
+                    <entry key="noOfRows" type="xlong" value="3145"/>
+                    <entry key="mean" type="xdouble" value="-64.78937789543366"/>
+                    <entry key="sd" type="xdouble" value="3.979875269405842"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="TERRAZA"/>
+                    <entry key="MissingValCounter" type="xlong" value="73"/>
+                    <entry key="noOfRows" type="xlong" value="3232"/>
+                    <entry key="mean" type="xdouble" value="-71.27761949984168"/>
+                    <entry key="sd" type="xdouble" value="3.082674813929511"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="VENTANA INTERIOR"/>
+                    <entry key="MissingValCounter" type="xlong" value="67"/>
+                    <entry key="noOfRows" type="xlong" value="3378"/>
+                    <entry key="mean" type="xdouble" value="-69.35270311084257"/>
+                    <entry key="sd" type="xdouble" value="3.1581971848438903"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_8">
+            <entry key="attributeName" type="xstring" value="B827EB7BD4BF-1+Mean(Media_Movil)"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="524"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="6"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="CENTRO"/>
+                    <entry key="MissingValCounter" type="xlong" value="55"/>
+                    <entry key="noOfRows" type="xlong" value="2105"/>
+                    <entry key="mean" type="xdouble" value="-67.8629268292682"/>
+                    <entry key="sd" type="xdouble" value="4.560974699489428"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="MESAS"/>
+                    <entry key="MissingValCounter" type="xlong" value="158"/>
+                    <entry key="noOfRows" type="xlong" value="4571"/>
+                    <entry key="mean" type="xdouble" value="-68.15796510310476"/>
+                    <entry key="sd" type="xdouble" value="4.955908324203669"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="VENTANA PUERTA"/>
+                    <entry key="MissingValCounter" type="xlong" value="57"/>
+                    <entry key="noOfRows" type="xlong" value="3241"/>
+                    <entry key="mean" type="xdouble" value="-69.40942211055261"/>
+                    <entry key="sd" type="xdouble" value="5.132228849298541"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="KIOSKO"/>
+                    <entry key="MissingValCounter" type="xlong" value="125"/>
+                    <entry key="noOfRows" type="xlong" value="3145"/>
+                    <entry key="mean" type="xdouble" value="-61.60639072847689"/>
+                    <entry key="sd" type="xdouble" value="3.9507319693176597"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="TERRAZA"/>
+                    <entry key="MissingValCounter" type="xlong" value="61"/>
+                    <entry key="noOfRows" type="xlong" value="3232"/>
+                    <entry key="mean" type="xdouble" value="-71.52838221381268"/>
+                    <entry key="sd" type="xdouble" value="5.86190948747549"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="VENTANA INTERIOR"/>
+                    <entry key="MissingValCounter" type="xlong" value="68"/>
+                    <entry key="noOfRows" type="xlong" value="3378"/>
+                    <entry key="mean" type="xdouble" value="-68.43000000000012"/>
+                    <entry key="sd" type="xdouble" value="4.83017584258513"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_9">
+            <entry key="attributeName" type="xstring" value="B827EB7BD4BF-2+Mean(Media_Movil)"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="522"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="6"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="CENTRO"/>
+                    <entry key="MissingValCounter" type="xlong" value="48"/>
+                    <entry key="noOfRows" type="xlong" value="2105"/>
+                    <entry key="mean" type="xdouble" value="-67.32022362664065"/>
+                    <entry key="sd" type="xdouble" value="3.329095784705093"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="MESAS"/>
+                    <entry key="MissingValCounter" type="xlong" value="159"/>
+                    <entry key="noOfRows" type="xlong" value="4571"/>
+                    <entry key="mean" type="xdouble" value="-71.52241613780572"/>
+                    <entry key="sd" type="xdouble" value="3.729634430693984"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="VENTANA PUERTA"/>
+                    <entry key="MissingValCounter" type="xlong" value="62"/>
+                    <entry key="noOfRows" type="xlong" value="3241"/>
+                    <entry key="mean" type="xdouble" value="-67.79090909090914"/>
+                    <entry key="sd" type="xdouble" value="3.4101737281424644"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="KIOSKO"/>
+                    <entry key="MissingValCounter" type="xlong" value="142"/>
+                    <entry key="noOfRows" type="xlong" value="3145"/>
+                    <entry key="mean" type="xdouble" value="-65.7027306027308"/>
+                    <entry key="sd" type="xdouble" value="3.9179100538713043"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="TERRAZA"/>
+                    <entry key="MissingValCounter" type="xlong" value="61"/>
+                    <entry key="noOfRows" type="xlong" value="3232"/>
+                    <entry key="mean" type="xdouble" value="-72.11592557552805"/>
+                    <entry key="sd" type="xdouble" value="3.7077761987747944"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="VENTANA INTERIOR"/>
+                    <entry key="MissingValCounter" type="xlong" value="50"/>
+                    <entry key="noOfRows" type="xlong" value="3378"/>
+                    <entry key="mean" type="xdouble" value="-69.68191105769222"/>
+                    <entry key="sd" type="xdouble" value="3.371495599968199"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_10">
+            <entry key="attributeName" type="xstring" value="B827EB53A67E-2+Mean(Media_Movil)"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="872"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="6"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="CENTRO"/>
+                    <entry key="MissingValCounter" type="xlong" value="80"/>
+                    <entry key="noOfRows" type="xlong" value="2105"/>
+                    <entry key="mean" type="xdouble" value="-75.06651851851838"/>
+                    <entry key="sd" type="xdouble" value="4.809901572807535"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="MESAS"/>
+                    <entry key="MissingValCounter" type="xlong" value="329"/>
+                    <entry key="noOfRows" type="xlong" value="4571"/>
+                    <entry key="mean" type="xdouble" value="-82.2401225836868"/>
+                    <entry key="sd" type="xdouble" value="2.3359775510770953"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="VENTANA PUERTA"/>
+                    <entry key="MissingValCounter" type="xlong" value="112"/>
+                    <entry key="noOfRows" type="xlong" value="3241"/>
+                    <entry key="mean" type="xdouble" value="-74.05733461169717"/>
+                    <entry key="sd" type="xdouble" value="6.2528319458915025"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="KIOSKO"/>
+                    <entry key="MissingValCounter" type="xlong" value="212"/>
+                    <entry key="noOfRows" type="xlong" value="3145"/>
+                    <entry key="mean" type="xdouble" value="-80.83504943743613"/>
+                    <entry key="sd" type="xdouble" value="2.5305660032230572"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="TERRAZA"/>
+                    <entry key="MissingValCounter" type="xlong" value="83"/>
+                    <entry key="noOfRows" type="xlong" value="3232"/>
+                    <entry key="mean" type="xdouble" value="-75.09336297237226"/>
+                    <entry key="sd" type="xdouble" value="5.629262222161805"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="VENTANA INTERIOR"/>
+                    <entry key="MissingValCounter" type="xlong" value="56"/>
+                    <entry key="noOfRows" type="xlong" value="3378"/>
+                    <entry key="mean" type="xdouble" value="-70.73506923540042"/>
+                    <entry key="sd" type="xdouble" value="6.8650510819473505"/>
+                </config>
+            </config>
+        </config>
+    </config>
+</config>
